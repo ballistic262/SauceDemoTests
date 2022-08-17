@@ -1,0 +1,20 @@
+{
+  "name": "saucedemotests",
+  "version": "1.0.0",
+  "description": "Simple automatic tests for demo Sauce page.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballistic262/SauceDemoTests.git"
+  },
+  "author": "Dawid Bajor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ballistic262/SauceDemoTests/issues"
+  },
+  "homepage": "https://github.com/ballistic262/SauceDemoTests#readme"
+}
