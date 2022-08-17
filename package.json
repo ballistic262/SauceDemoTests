@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Simple automatic tests for demo Sauce page.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
