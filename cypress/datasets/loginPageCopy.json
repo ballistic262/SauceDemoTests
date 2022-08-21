@@ -1,9 +1,8 @@
 {
     "errorMsg": {
-        "emptyLogin": "standard_user",
-        "emptyPassword": "secret_sauce",
-        "emptyLoginAndPassword": "Epic sadface: Username is required",
-        "lockedUser": "secret_sauce",
-        "wrongUser": ""
+        "emptyLogin": "Epic sadface: Username is required",
+        "emptyPassword": "Epic sadface: Password is required",
+        "lockedUser": "Epic sadface: Sorry, this user has been locked out.",
+        "wrongUser": "Epic sadface: Username and password do not match any user in this service"
     }
 }

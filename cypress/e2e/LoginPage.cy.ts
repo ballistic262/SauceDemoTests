@@ -23,7 +23,7 @@ describe('LoginPage', () => {
 
     LoginPage.shouldInputsBeEmpty();
     LoginPage.clickOnLoginButton();
-    LoginPage.shouldDisplayLoginErrorMsg(loginPageCopy.errorMsg.emptyLoginAndPassword);
+    LoginPage.shouldDisplayLoginErrorMsg(loginPageCopy.errorMsg.emptyLogin);
     
   })
 
