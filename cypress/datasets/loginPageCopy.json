@@ -1,0 +1,9 @@
+{
+    "errorMsg": {
+        "emptyLogin": "standard_user",
+        "emptyPassword": "secret_sauce",
+        "emptyLoginAndPassword": "Epic sadface: Username is required",
+        "lockedUser": "secret_sauce",
+        "wrongUser": ""
+    }
+}
