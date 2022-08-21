@@ -11,14 +11,28 @@ class loginPage {
 
     }
 
+    fillUsernameInput = (login: string) => {
+
+        LoginPage.usernameInput().type(login);
+        LoginPage.usernameInput().should('have.value', login);
+
+    }
+    
+    fillPasswordInput = (password: string) => {
+
+        LoginPage.passwordInput().type(password);
+        LoginPage.passwordInput().should('have.value', password);
+
+    }
+
     loginUser = (user: User) => {
 
-        LoginPage.usernameInput().type(user.login);
-        LoginPage.passwordInput().type(user.password);
+        this.fillUsernameInput(user.login);
+        this.fillPasswordInput(user.password);
 
         this.clickOnLoginButton();
 
-    }
+    }    
 
     shouldDisplayLoginErrorMsg = (message: string) => {
 
@@ -43,8 +57,8 @@ class loginPage {
 
     shouldInputsBeEmpty = () => {
 
-        LoginPage.usernameInput().should('be.empty');
-        LoginPage.passwordInput().should('be.empty');
+        LoginPage.usernameInput().should('have.value', '');
+        LoginPage.passwordInput().should('have.value', '');
 
     }
 

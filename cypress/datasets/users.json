@@ -14,5 +14,9 @@
     "performanceGlitchUser": {
         "login": "performance_glitch_user",
         "password": "secret_sauce"
+    },
+    "wrongUser": {
+        "login": "wrong_user",
+        "password": "not_sauce"
     }
 }
