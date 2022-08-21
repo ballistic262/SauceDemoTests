@@ -2,6 +2,7 @@ import { defineConfig } from 'cypress'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:1234'
-  }
+    baseUrl: 'https://www.saucedemo.com/'
+  },
+  "chromeWebSecurity": false
 })
